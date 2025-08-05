@@ -1,0 +1,9 @@
+name = "mcp-sse-server"
+main = "src/index.ts"
+compatibility_date = "2024-11-27"
+
+[vars]
+NWS_API_BASE = "https://api.weather.gov"
+USER_AGENT = "cloudflare-mcp-sse/1.0"
+REQUEST_TIMEOUT = "30000"
+MAX_FORECAST_PERIODS = "5"
